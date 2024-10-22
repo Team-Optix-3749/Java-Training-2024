@@ -1,16 +1,20 @@
 public class Main {
     
     public static void main(String[] args) {
-        Child Jim = new Child("Jim");
+        Child Jim = new Child("Jim", "Smithson", "blue");
         Jim.getLastName();
         Jim.parentEyeColor();
     }
 }
 
 class Parent {
-    String last_name = "Smithson";
-    String eye_color = "Blue";
+    String last_name;
+    String eye_color;
 
+    Parent(String last_name, String eyeColor) {
+        this.last_name = last_name;
+        this.eye_color = eyeColor;
+    }
     void getLastName() {
         System.out.println("This person's last name is " + this.last_name);
     }
@@ -19,7 +23,8 @@ class Parent {
 class Child extends Parent {
     String first_name;
 
-    Child(String first_name) {
+    Child(String first_name, String lastName, String eyeColor) {
+        super(lastName, eyeColor);
         this.first_name = first_name;
     }
 
@@ -28,6 +33,6 @@ class Child extends Parent {
     }
 
     void parentEyeColor() {
-        System.out.println("The parent has " + eye_color + " eyes.");
+        System.out.println("The parent has " + super.eye_color + " eyes.");
     }
 }
