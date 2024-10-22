@@ -1,5 +1,3 @@
-package Week3.Inheritance;
-
 public class Vehicle {
     double speed;
 
