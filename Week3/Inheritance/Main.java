@@ -7,18 +7,18 @@ public class Main {
     }
 }
 
-class Parent {
-    String last_name;
-    String eye_color;
+// class Parent {
+//     String last_name;
+//     String eye_color;
 
-    Parent(String last_name, String eyeColor) {
-        this.last_name = last_name;
-        this.eye_color = eyeColor;
-    }
-    void getLastName() {
-        System.out.println("This person's last name is " + this.last_name);
-    }
-}
+//     Parent(String last_name, String eyeColor) {
+//         this.last_name = last_name;
+//         this.eye_color = eyeColor;
+//     }
+//     void getLastName() {
+//         System.out.println("This person's last name is " + this.last_name);
+//     }
+// }
 
 class Child extends Parent {
     String first_name;
