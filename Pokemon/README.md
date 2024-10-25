@@ -62,7 +62,7 @@
    
 Your explanations should have a bit of detail relating to specific parts of your code, not just citing things I've said or are written in these instructions
 
-3. Send a link to your github to @Noah over discord. 
+3. Send a link to your github pull request to @Noah over discord. 
 
 If you get it to me before Saturday, I will for sure review it before the end of the weekend. If you get it to me before Tuesday, I will review it before the next weekend
 
