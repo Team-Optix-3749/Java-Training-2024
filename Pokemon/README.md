@@ -39,7 +39,14 @@
 
 7. Repeat 7, but with non-default objects of your pokemon (different health, different names)
 
-8. Check your Understanding in a pull request:
+
+## When you Finish
+
+1. Make sure you commit changes to github
+
+2. Make sure you push your changes (send them to the cloud)
+
+3. Make a Pull Request on your own github repo, see slides for how. In it, have your description/comment for it include the following:
     
      a. Explain why Pokemon should be an abstract class
    
@@ -52,12 +59,8 @@
      e. Explain why you made one of your methods public
    
      f. Explain why you made one of your instance variables private
-
-## When you Finish
-
-1. Make sure you commit changes to github
-
-2. Make sure you push your changes (send them to the cloud)
+   
+Your explanations should have a bit of detail relating to specific parts of your code, not just citing things I've said or are written in these instructions
 
 3. Send a link to your github to @Noah over discord. 
 
