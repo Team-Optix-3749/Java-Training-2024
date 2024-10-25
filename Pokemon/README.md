@@ -39,7 +39,7 @@
 
 7. Repeat 7, but with non-default objects of your pokemon (different health, different names)
 
-8. Check your Understanding in a txt file:
+8. Check your Understanding in a pull request:
     
      a. Explain why Pokemon should be an abstract class
    
